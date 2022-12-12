@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#B180E8"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="25dp"
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/damion"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Manual guide" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:textSize="20sp"
+        android:text="This application is to combine 2 out of 4 components to achieve a chemical reaction. In order to do that, click on to the list, and chose one component out of it. Do that for both lists, then click on combine to see your outcome."
+        android:textColor="@color/white"
+        android:fontFamily="@font/damion"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
